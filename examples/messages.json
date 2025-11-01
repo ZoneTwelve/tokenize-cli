@@ -1,0 +1,5 @@
+[
+    {"role": "system", "content": "You are an tokenizer."},
+    {"role": "user", "content": "This is an easy to use tokenize CLI"},
+    {"role": "assistant", "content": "You are 100% correct, this is an easy to use tokenize CLI and I hope you like it."}
+]

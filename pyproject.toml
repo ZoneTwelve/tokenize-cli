@@ -1,0 +1,24 @@
+[project]
+name = "tokenize-cli"
+version = "0.1.0"
+description = "A super simple CLI for text tokenization"
+authors = [{ name = "ZoneTwelve" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "fire",
+    "transformers",
+]
+
+[project.scripts]
+tokenize = "main:main"
+tokenize-cli = "cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+

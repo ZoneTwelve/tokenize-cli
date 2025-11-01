@@ -5,6 +5,14 @@ Ideal for quick inspection of token counts, model comparisons, or debugging chat
 
 ---
 
+## 📝 TODO
+
+* Tokenize a folder to parse all the file inside that folder using dataset library
+* Visualize the number with scientific notation
+* List the special tokens in the context
+
+---
+
 ## 🚀 Features
 
 * 🔤 Tokenize any text file with your favorite Hugging Face tokenizer
